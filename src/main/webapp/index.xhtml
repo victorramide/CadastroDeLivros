@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Cadastro de Livros e HQs</title>
+    </h:head>
+    <h:body>
+        <center><h2>Cadastre seus livros ou Hqs no menu abaixo ou veja os itens já cadastrados.</h2></center>
+        <h:form style="position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%)">
+                <p:menu>
+                    <p:submenu label="Livro e HQ">
+                        <p:menuitem value="Cadastro" url="/faces/cadastrar.xhtml" />
+                        <p:menuitem value="Relatório" url="/faces/relatorio.xhtml"/>
+                    </p:submenu>
+                </p:menu>            
+            </h:form>
+    </h:body>
+</html>
+
